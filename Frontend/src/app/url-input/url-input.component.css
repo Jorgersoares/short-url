@@ -1,0 +1,31 @@
+
+.input-width {
+  width: 100%;
+}
+.url-card{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.progress-width{
+  width: 62%;
+}
+@media (max-device-width : 600px){
+  .url-card{
+    width: 82%;
+  }
+  .progress-width{
+    width: 82%;
+  }
+}
+.form-container{
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn{
+  margin-top: 15px;
+}

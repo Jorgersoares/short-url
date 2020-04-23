@@ -1,0 +1,15 @@
+<form [formGroup]="urlForm" (ngSubmit)="onSubmit(urlForm.value)">
+  <div class="form-container">
+    <mat-card class="url-card">
+      <mat-form-field class="input-width">
+        <input matInput placeholder="Cole aqui a URL a ser encurtada" formControlName="url" type="url" 
+        pattern="https?://.+" required>
+        <mat-error *ngIf="urlForm.get('url').invalid">{{errorMessages()}}</mat-error>
+      </mat-form-field>
+      <div class="submit-btn">
+        <button mat-raised-button color="primary" [disabled]="urlForm.get('url').invalid">Encurtar</button>
+      </div>
+    </mat-card>
+    <mat-progress-bar *ngIf="progress_bar" mode="indeterminate" class="progress-width"></mat-progress-bar>
+  </div>
+</form>

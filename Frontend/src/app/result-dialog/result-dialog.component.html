@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>URL encurtada com sucesso!</h1>
+<div mat-dialog-content class="show_url">
+  <mat-form-field class="full-width">
+    <input matInput value="{{data['url']}}" #inputTarget [readonly]="true">
+    <mat-hint>A url criada tem uma validade de duas horas</mat-hint>
+  </mat-form-field>
+  
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" [ngxClipboard]="inputTarget" (click)="onCopy()">Copiar URL</button>
+</div>
