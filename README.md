@@ -19,7 +19,7 @@ shortURL é uma aplicação SPA que consome uma API REST para encurtar URLs
 - [MongoDB ATLAS](https://www.mongodb.com/cloud/atlas)
 - [Mongoose](https://mongoosejs.com/)
 
-## Documentaçao
+## Documentação
 
 - [API](https://documenter.getpostman.com/view/10068569/SWLiamji?version=latest)
 
