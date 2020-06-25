@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Descrição
 
-shortURL é uma aplicação SPA que consome uma API REST para encurtar URLs
+shortURL é uma aplicação Single Page Application que encurta URLs
 
 ## Tecnologias utilizadas:
 
