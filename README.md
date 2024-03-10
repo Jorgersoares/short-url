@@ -1,9 +1,9 @@
 # ShortURL
-## Descrição
+## Description
 
-shortURL é uma aplicação Single Page Application que encurta URLs
+ShortURL is a Single Page Application that shortens URLs.
 
-## Tecnologias utilizadas:
+## Tech stack:
 
 ### Frontend
 
@@ -12,15 +12,10 @@ shortURL é uma aplicação Single Page Application que encurta URLs
 ### API
 
 - [NodeJS](https://nodejs.org/en/)
-- [ExpressJS](https://expressjs.com/pt-br/)
+- [ExpressJS](https://expressjs.com/)
 - [MongoDB ATLAS](https://www.mongodb.com/cloud/atlas)
 - [Mongoose](https://mongoosejs.com/)
 
-## Documentação
+## Documentation
 
 - [API](https://documenter.getpostman.com/view/10068569/SWLiamji?version=latest)
-
-## Demo
-
-- [API](https://shorturl--api.herokuapp.com/)
-- [Aplicação](https://shorturl--client.herokuapp.com/)
